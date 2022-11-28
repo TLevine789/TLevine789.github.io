@@ -118,18 +118,6 @@ font-family: 'Source Sans Pro', sans-serif;
   bottom: 5px;
 }
 
-.link {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.29;
-  letter-spacing: 0.1px;
-  text-align: left;
-  color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
-}
-
 .description {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
@@ -151,18 +139,19 @@ font-family: 'Source Sans Pro', sans-serif;
   padding: 20px;
 }
 
-.logo-row {
-  width: 250px;
-  margin: 0 auto;
-}
-
 .container {
  /* min-width: 500px; */
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media all and (max-width:700px) {
